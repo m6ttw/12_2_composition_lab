@@ -26,8 +26,4 @@ public class Car {
     public EngineType getEngineType(){
         return engineType;
     }
-
-    public String getEngineNameFromEnum(){
-        return this.engineType.getName();
-    }
 }
